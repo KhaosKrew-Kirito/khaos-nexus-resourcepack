@@ -40,6 +40,15 @@
   },
   "nexus.harvester_mining": {
    "textures": "textures/items/harvester_mining"
+  },
+  "nexus.harvester_farming": {
+   "textures": "textures/items/harvester_farming"
+  },
+  "nexus.harvester_fishing": {
+   "textures": "textures/items/harvester_fishing"
+  },
+  "nexus.harvester_essence": {
+   "textures": "textures/items/harvester_essence"
   }
  }
 }

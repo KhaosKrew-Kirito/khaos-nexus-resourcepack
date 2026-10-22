@@ -6,7 +6,7 @@ def mix(a,b,t):return tuple(int(a[i]+(b[i]-a[i])*t) for i in range(3))
 # Khaos Nexus palette
 PAL=dict(black='#0d0b10',char='#26212c',steel='#8f8aa0',red='#9e1622',storm='#d1312b',orange='#ff7a1a',ember='#ffc14a',
  soul='#2fb8ff',soulhi='#b8f1ff',deep='#0f2a4a',gold='#e0a83a',wood='#5a3424',woodhi='#8a5a3a',cream='#fff4dc',corn='#ffd23a',
- purple='#4a2370',violet='#8b4fd8',green='#64d46a',night='#141c44',nighthi='#2c3c8a')
+ purple='#4a2370',violet='#8b4fd8',green='#64d46a',night='#141c44',nighthi='#2c3c8a',leaf='#2f8a3a',lime='#a6f05a',aqua='#3ff0e0',teal='#0c5560',mag='#e05cff',plum='#3a1050')
 def cell(c1,c2,pat):
   a=H(PAL[c1]);b=H(PAL[c2]);im=Image.new('RGBA',(16,16))
   for y in range(16):
@@ -61,11 +61,25 @@ def altar():
   for x,z in((1,1),(12,1),(1,12),(12,12)):E+= [B((x,7,z),(x+3,13,z+3),'k'),B((x+.5,13,z+.5),(x+2.5,15,z+2.5),'c')]
   E+=[B((5,7,5),(11,8.5,11),'r'),B((6.5,9.5,6.5),(9.5,15.5,9.5),'v'),B((7.25,15.5,7.25),(8.75,17,8.75),'v'),B((7.25,8.5,7.25),(8.75,9.5,8.75),'c')]
   return M,E
-def harvester():
-  M={'k':('char','black','plain'),'s':('steel','char','metal'),'o':('orange','red','glow'),'e':('ember','orange','metal'),'c':('soul','deep','glow')}
+def harvester(g1='orange',g2='red',tr=('ember','orange','metal'),top='mine'):
+  M={'k':('char','black','plain'),'s':('steel','char','metal'),'o':(g1,g2,'glow'),'e':tr,'c':('soul','deep','glow')}
   E=[B((0,0,0),(16,2,16),'s'),B((1,2,1),(15,13,15),'k'),B((0,13,0),(16,16,16),'s'),B((3,4,0.6),(13,11,1),'o'),B((3,4,15),(13,11,15.4),'o'),B((0.6,4,3),(1,11,13),'o'),B((15,4,3),(15.4,11,13),'o')]
   for x,z in((0,0),(14,0),(0,14),(14,14)):E.append(B((x,2,z),(x+2,13,z+2),'s'))
-  E+=[B((5,16,5),(11,18,11),'s'),B((6.5,18,6.5),(9.5,20,9.5),'c'),B((2,15.5,2),(14,16.2,14),'e')]
+  E.append(B((2,15.5,2),(14,16.2,14),'e'))
+  if top=='mine':E+=[B((5,16,5),(11,18,11),'s'),B((6.5,18,6.5),(9.5,20,9.5),'c')]
+  elif top=='farm':
+    M['w']=('wood','black','wood');M['l']=('lime','leaf','glow');M['g']=('leaf','black','plain')
+    E+=[B((3,16,3),(13,17,13),'w')]
+    for x,z,h in((4,4,4),(7,5,5.5),(10,4,4.5),(5,8,5),(9,9,6),(4,11,4),(11,11,5),(7.5,11,4.5)):
+      E+=[B((x,17,z),(x+.8,17+h,z+.8),'g'),B((x-.3,17+h,z-.3),(x+1.1,17+h+1.6,z+1.1),'l')]
+  elif top=='fish':
+    M['w']=('teal','black','metal');M['a']=('aqua','teal','glow');M['p']=('wood','black','wood')
+    E+=[B((3,16,3),(13,17,13),'w'),B((4,16.6,4),(12,17.2,12),'a'),B((12,16,12),(13.2,26,13.2),'p'),B((6,25,12.1),(12,25.8,13),'p'),B((6,21,12.3),(6.4,25,12.7),'s'),B((6,20,12.3),(7.8,20.6,12.7),'s'),B((7.4,20,12.3),(7.8,21.4,12.7),'s'),B((5.4,19,12.2),(6.6,20,12.8),'a')]
+  elif top=='ess':
+    M['w']=('plum','black','metal');M['m']=('mag','violet','glow')
+    E+=[B((5,16,5),(11,17.5,11),'w')]
+    for x,z in((5,5),(10,5),(5,10),(10,10)):E.append(B((x,17.5,z),(x+1,20,z+1),'w'))
+    for a,y0,y1 in((1,19,20),(2,20,21.2),(3.2,21.2,23),(2,23,24.2),(1,24.2,25.4)):E.append(B((8-a/2*1.1,y0,8-a/2*1.1),(8+a/2*1.1,y1,8+a/2*1.1),'m'))
   return M,E
 ITEMS=[
  ('ember_blade','Ember Blade','Moonlantern Crate','sword',sword('ember','storm','orange','char','wood','orange')),
@@ -77,6 +91,9 @@ ITEMS=[
  ('candy_corn_saber','Candy Corn Saber','Lantern Chest (Halloween)','sword',sword('cream','orange','corn','char','black','orange')),
  ('rift_altar','Rift Altar','Rift Altar (custom block)','block',altar()),
  ('harvester_mining','Mining Harvester','Harvesters (custom block)','block',harvester()),
+ ('harvester_farming','Farming Harvester','Harvesters (custom block)','block',harvester('lime','leaf',('woodhi','wood','wood'),'farm')),
+ ('harvester_fishing','Fishing Harvester','Harvesters (custom block)','block',harvester('aqua','teal',('soulhi','soul','metal'),'fish')),
+ ('harvester_essence','Essence Harvester','Harvesters (custom block)','block',harvester('mag','plum',('violet','purple','metal'),'ess')),
 ]
 for id,_,_,_,(M,E) in ITEMS:
   if id=='candy_corn_saber':M['b']=('corn','orange','bands')
@@ -106,6 +123,7 @@ def rot(yaw,pitch,roll):
   cy,sy,cp,sp,cr,sr=math.cos(yaw),math.sin(yaw),math.cos(pitch),math.sin(pitch),math.cos(roll),math.sin(roll)
   Rz=np.array([[cr,-sr,0],[sr,cr,0],[0,0,1]]);Ry=np.array([[cy,0,sy],[0,1,0],[-sy,0,cy]]);Rx=np.array([[1,0,0],[0,cp,-sp],[0,sp,cp]])
   return Rx@Ry@Rz
+FIX={}
 def render(E,M,cells,kind,S=1024):
   roll={'sword':-45,'tool':-45}.get(kind,0)
   Rm=rot(math.radians(-35),math.radians(22 if kind!='hat' else 28),math.radians(roll))
@@ -121,7 +139,9 @@ def render(E,M,cells,kind,S=1024):
       if n[2]<=1e-6:continue
       P=[Rm@(np.array(p,float)-8) for p in P]
       quads.append((np.mean([p[2] for p in P]),P,n,m))
-  allp=np.array([p for q in quads for p in q[1]]);mn=allp[:,:2].min(0);mx=allp[:,:2].max(0)
+  allp=[p for q in quads for p in q[1]]
+  if FIX.get(__import__('builtins').id(E)):allp+=[Rm@(np.array([x,y,z],float)-8) for x in(0,16) for y in(0,27) for z in(0,16)]
+  allp=np.array(allp);mn=allp[:,:2].min(0);mx=allp[:,:2].max(0)
   sc=S*0.78/max(mx-mn);cen=(mn+mx)/2
   def scr(p):return(S/2+(p[0]-cen[0])*sc,S/2-(p[1]-cen[1])*sc)
   img=Image.new('RGBA',(S,S),(0,0,0,0));glow=Image.new('RGBA',(S,S),(0,0,0,0))
@@ -155,6 +175,8 @@ def render(E,M,cells,kind,S=1024):
 F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',17) if os.path.exists('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf') else ImageFont.load_default()
 F2=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',13) if os.path.exists('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf') else F
 tiles=[]
+for it in ITEMS:
+  if it[0].startswith('harvester'):FIX[__import__('builtins').id(it[4][1])]=1
 for id,name,crate,kind,(M,E) in ITEMS:
   cells=build(id,M,E,kind);im=render(E,M,cells,kind);im.save(f'{OUT}/{id}.png',optimize=True);tiles.append((im,name,crate))
 W=300;cols=3;sh=Image.new('RGB',(cols*W,((len(tiles)+2)//3)*(W+44)),(10,9,13));d=ImageDraw.Draw(sh)
@@ -162,3 +184,9 @@ for k,(im,a,b) in enumerate(tiles):
   x=(k%3)*W;y=(k//3)*(W+44);sh.paste(im.resize((W-10,W-10),Image.LANCZOS),(x+5,y+5));d.text((x+12,y+W-2),a,fill=(255,200,140),font=F);d.text((x+12,y+W+19),b,fill=(140,200,255),font=F2)
 sh.filter(ImageFilter.UnsharpMask(1,40,2)).save(f'{OUT}/contact_sheet.png',optimize=True)
 json.dump([dict(id=i[0],name=i[1],crate=i[2],kind=i[3]) for i in ITEMS],open('/workspace/skins/b3/manifest.json','w'),indent=1)
+
+H4=[Image.open(f'{OUT}/harvester_{k}.png') for k in ('mining','farming','fishing','essence')]
+hs=Image.new('RGB',(4*480,520),(10,9,13));d=ImageDraw.Draw(hs)
+for i,(im,n) in enumerate(zip(H4,('Mining','Farming','Fishing','Essence'))):
+  hs.paste(im.resize((470,470),Image.LANCZOS),(i*480+5,5));d.text((i*480+20,482),n+' Harvester',fill=(255,200,140),font=F)
+hs.filter(ImageFilter.UnsharpMask(1,40,2)).save(f'{OUT}/harvesters_set.png',optimize=True)
