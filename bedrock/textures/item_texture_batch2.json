@@ -49,6 +49,42 @@
   },
   "nexus.harvester_essence": {
    "textures": "textures/items/harvester_essence"
+  },
+  "nexus.key_common": {
+   "textures": "textures/items/key_common"
+  },
+  "nexus.key_rare": {
+   "textures": "textures/items/key_rare"
+  },
+  "nexus.key_steward": {
+   "textures": "textures/items/key_steward"
+  },
+  "nexus.key_arena": {
+   "textures": "textures/items/key_arena"
+  },
+  "nexus.key_lantern": {
+   "textures": "textures/items/key_lantern"
+  },
+  "nexus.key_moonlantern": {
+   "textures": "textures/items/key_moonlantern"
+  },
+  "nexus.key_starfall": {
+   "textures": "textures/items/key_starfall"
+  },
+  "nexus.arena_sigil": {
+   "textures": "textures/items/arena_sigil"
+  },
+  "nexus.rift_dust": {
+   "textures": "textures/items/rift_dust"
+  },
+  "nexus.prism_shard": {
+   "textures": "textures/items/prism_shard"
+  },
+  "nexus.tyrant_core": {
+   "textures": "textures/items/tyrant_core"
+  },
+  "nexus.nexus_spawner": {
+   "textures": "textures/items/nexus_spawner"
   }
  }
 }
