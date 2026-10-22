@@ -31,6 +31,15 @@
   },
   "nexus.cozy_witch_hat": {
    "textures": "textures/items/cozy_witch_hat"
+  },
+  "nexus.rift_scythe": {
+   "textures": "textures/items/rift_scythe"
+  },
+  "nexus.rift_altar": {
+   "textures": "textures/items/rift_altar"
+  },
+  "nexus.harvester_mining": {
+   "textures": "textures/items/harvester_mining"
   }
  }
 }

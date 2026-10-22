@@ -16,7 +16,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_wooden",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true
@@ -48,7 +48,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_stone",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true
@@ -80,7 +80,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_iron",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true
@@ -112,7 +112,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_golden",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true
@@ -144,7 +144,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_diamond",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true
@@ -176,7 +176,7 @@
     "type": "definition",
     "model": "nexus:frostbloom_blade",
     "bedrock_identifier": "nexus:frostbloom_blade_netherite",
-    "display_name": "Frostbloom Blade",
+    "display_name": "Soulfrost Blade",
     "bedrock_options": {
      "icon": "nexus.frostbloom_blade",
      "display_handheld": true

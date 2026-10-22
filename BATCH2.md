@@ -1,3 +1,9 @@
+# Batch 3 (improved) - replaces batch 2 versions of these ids
+3D multi-element models (Blockbench-style JSON, 64x64 atlas, hand-shaded ramps with edge highlights, `light_emission: 15` on glow parts, display transforms for gui/hand/head):
+ember_blade, frostbloom_blade (now "Soulfrost Blade"), rift_scythe (upgraded from v1 flat), starforge_pickaxe, starry_hat, cozy_witch_hat, candy_corn_saber, rift_altar (block), harvester_mining (block).
+Bedrock: icons are the 3D renders (64px); 3D Bedrock geometry/attachables still TODO. Generator: tools/gen_batch3.py.
+Still batch-2 quality (to redo): grove_axe, starlit_shovel, moonlure_rod, aurora_bow, harvester_farming/fishing/essence, autosell_chest, hearth_beacon, 7 decor blocks.
+
 # Batch 2 skins + custom block skins (STAGED, NOT LIVE)
 Do not publish a release from this branch until the owner OKs; live pack sha1 a96afafc... unchanged.
 ## Item skins (pack/assets/nexus/items/<id>.json -> item_model nexus:<id>)
