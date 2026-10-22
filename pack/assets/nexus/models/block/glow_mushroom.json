@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/glow_mushroom_top",
+  "bottom": "nexus:block/glow_mushroom_top",
+  "side": "nexus:block/glow_mushroom_side"
+ }
+}

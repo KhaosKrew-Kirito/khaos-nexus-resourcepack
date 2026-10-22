@@ -1,0 +1,137 @@
+{
+ "format_version": 2,
+ "items": {
+  "minecraft:tripwire_hook": [
+   {
+    "type": "definition",
+    "model": "nexus:key_common",
+    "bedrock_identifier": "nexus:key_common",
+    "display_name": "Common Key",
+    "bedrock_options": {
+     "icon": "nexus.key_common",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_rare",
+    "bedrock_identifier": "nexus:key_rare",
+    "display_name": "Rare Key",
+    "bedrock_options": {
+     "icon": "nexus.key_rare",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_steward",
+    "bedrock_identifier": "nexus:key_steward",
+    "display_name": "Steward Key",
+    "bedrock_options": {
+     "icon": "nexus.key_steward",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_arena",
+    "bedrock_identifier": "nexus:key_arena",
+    "display_name": "Arena Key",
+    "bedrock_options": {
+     "icon": "nexus.key_arena",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_lantern",
+    "bedrock_identifier": "nexus:key_lantern",
+    "display_name": "Lantern Key",
+    "bedrock_options": {
+     "icon": "nexus.key_lantern",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_moonlantern",
+    "bedrock_identifier": "nexus:key_moonlantern",
+    "display_name": "Moonlantern Key",
+    "bedrock_options": {
+     "icon": "nexus.key_moonlantern",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:key_starfall",
+    "bedrock_identifier": "nexus:key_starfall",
+    "display_name": "Vote Key (Starfall)",
+    "bedrock_options": {
+     "icon": "nexus.key_starfall",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:echo_shard": [
+   {
+    "type": "definition",
+    "model": "nexus:arena_sigil",
+    "bedrock_identifier": "nexus:arena_sigil",
+    "display_name": "Arena Sigil",
+    "bedrock_options": {
+     "icon": "nexus.arena_sigil",
+     "display_handheld": false
+    }
+   }
+  ],
+  "minecraft:glowstone_dust": [
+   {
+    "type": "definition",
+    "model": "nexus:rift_dust",
+    "bedrock_identifier": "nexus:rift_dust",
+    "display_name": "Rift Dust",
+    "bedrock_options": {
+     "icon": "nexus.rift_dust",
+     "display_handheld": false
+    }
+   }
+  ],
+  "minecraft:prismarine_shard": [
+   {
+    "type": "definition",
+    "model": "nexus:prism_shard",
+    "bedrock_identifier": "nexus:prism_shard",
+    "display_name": "Prism Shard",
+    "bedrock_options": {
+     "icon": "nexus.prism_shard",
+     "display_handheld": false
+    }
+   }
+  ],
+  "minecraft:heart_of_the_sea": [
+   {
+    "type": "definition",
+    "model": "nexus:tyrant_core",
+    "bedrock_identifier": "nexus:tyrant_core",
+    "display_name": "Tyrant Core",
+    "bedrock_options": {
+     "icon": "nexus.tyrant_core",
+     "display_handheld": false
+    }
+   }
+  ],
+  "minecraft:spawner": [
+   {
+    "type": "definition",
+    "model": "nexus:nexus_spawner",
+    "bedrock_identifier": "nexus:nexus_spawner",
+    "display_name": "Nexus Spawner",
+    "bedrock_options": {
+     "icon": "nexus.nexus_spawner",
+     "display_handheld": false
+    }
+   }
+  ]
+ }
+}

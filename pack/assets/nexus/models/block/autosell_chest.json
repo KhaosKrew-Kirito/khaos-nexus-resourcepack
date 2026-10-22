@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/autosell_chest_top",
+  "bottom": "nexus:block/autosell_chest_top",
+  "side": "nexus:block/autosell_chest_side"
+ }
+}
