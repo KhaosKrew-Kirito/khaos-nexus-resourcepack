@@ -1,0 +1,585 @@
+{
+ "format_version": 2,
+ "items": {
+  "minecraft:wooden_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_wooden",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_wooden",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_wooden",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:stone_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_stone",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_stone",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_stone",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:iron_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_iron",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_iron",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_iron",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:golden_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_golden",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_golden",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_golden",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:diamond_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_diamond",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_diamond",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_diamond",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:netherite_sword": [
+   {
+    "type": "definition",
+    "model": "nexus:ember_blade",
+    "bedrock_identifier": "nexus:ember_blade_netherite",
+    "display_name": "Ember Blade",
+    "bedrock_options": {
+     "icon": "nexus.ember_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:frostbloom_blade",
+    "bedrock_identifier": "nexus:frostbloom_blade_netherite",
+    "display_name": "Frostbloom Blade",
+    "bedrock_options": {
+     "icon": "nexus.frostbloom_blade",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:candy_corn_saber",
+    "bedrock_identifier": "nexus:candy_corn_saber_netherite",
+    "display_name": "Candy Corn Saber",
+    "bedrock_options": {
+     "icon": "nexus.candy_corn_saber",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:wooden_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_wooden",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:stone_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_stone",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:iron_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_iron",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:golden_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_golden",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:diamond_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_diamond",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:netherite_pickaxe": [
+   {
+    "type": "definition",
+    "model": "nexus:starforge_pickaxe",
+    "bedrock_identifier": "nexus:starforge_pickaxe_netherite",
+    "display_name": "Starforge Pickaxe",
+    "bedrock_options": {
+     "icon": "nexus.starforge_pickaxe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:wooden_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_wooden",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:stone_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_stone",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:iron_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_iron",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:golden_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_golden",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:diamond_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_diamond",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:netherite_axe": [
+   {
+    "type": "definition",
+    "model": "nexus:grove_axe",
+    "bedrock_identifier": "nexus:grove_axe_netherite",
+    "display_name": "Grovewarden Axe",
+    "bedrock_options": {
+     "icon": "nexus.grove_axe",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:wooden_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_wooden",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:stone_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_stone",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:iron_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_iron",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:golden_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_golden",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:diamond_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_diamond",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:netherite_shovel": [
+   {
+    "type": "definition",
+    "model": "nexus:starlit_shovel",
+    "bedrock_identifier": "nexus:starlit_shovel_netherite",
+    "display_name": "Starlit Shovel",
+    "bedrock_options": {
+     "icon": "nexus.starlit_shovel",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:fishing_rod": [
+   {
+    "type": "definition",
+    "model": "nexus:moonlure_rod",
+    "bedrock_identifier": "nexus:moonlure_rod_fishing",
+    "display_name": "Moonlure Rod",
+    "bedrock_options": {
+     "icon": "nexus.moonlure_rod",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:bow": [
+   {
+    "type": "definition",
+    "model": "nexus:aurora_bow",
+    "bedrock_identifier": "nexus:aurora_bow_bow",
+    "display_name": "Aurora Bow",
+    "bedrock_options": {
+     "icon": "nexus.aurora_bow",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:paper": [
+   {
+    "type": "definition",
+    "model": "nexus:starry_hat",
+    "bedrock_identifier": "nexus:starry_hat_paper",
+    "display_name": "Starry Wizard Hat",
+    "bedrock_options": {
+     "icon": "nexus.starry_hat",
+     "display_handheld": false
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:cozy_witch_hat",
+    "bedrock_identifier": "nexus:cozy_witch_hat_paper",
+    "display_name": "Cozy Witch Hat",
+    "bedrock_options": {
+     "icon": "nexus.cozy_witch_hat",
+     "display_handheld": false
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:harvester_mining",
+    "bedrock_identifier": "nexus:harvester_mining_item",
+    "display_name": "Mining Harvester",
+    "bedrock_options": {
+     "icon": "nexus.harvester_mining"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:harvester_farming",
+    "bedrock_identifier": "nexus:harvester_farming_item",
+    "display_name": "Farming Harvester",
+    "bedrock_options": {
+     "icon": "nexus.harvester_farming"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:harvester_fishing",
+    "bedrock_identifier": "nexus:harvester_fishing_item",
+    "display_name": "Fishing Harvester",
+    "bedrock_options": {
+     "icon": "nexus.harvester_fishing"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:harvester_essence",
+    "bedrock_identifier": "nexus:harvester_essence_item",
+    "display_name": "Rift Essence Harvester",
+    "bedrock_options": {
+     "icon": "nexus.harvester_essence"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:rift_altar",
+    "bedrock_identifier": "nexus:rift_altar_item",
+    "display_name": "Rift Altar",
+    "bedrock_options": {
+     "icon": "nexus.rift_altar"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:autosell_chest",
+    "bedrock_identifier": "nexus:autosell_chest_item",
+    "display_name": "Auto-Sell Chest",
+    "bedrock_options": {
+     "icon": "nexus.autosell_chest"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:hearth_beacon",
+    "bedrock_identifier": "nexus:hearth_beacon_item",
+    "display_name": "Hearth Beacon",
+    "bedrock_options": {
+     "icon": "nexus.hearth_beacon"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:ember_lantern",
+    "bedrock_identifier": "nexus:ember_lantern_item",
+    "display_name": "Ember Lantern",
+    "bedrock_options": {
+     "icon": "nexus.ember_lantern"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:moon_lamp",
+    "bedrock_identifier": "nexus:moon_lamp_item",
+    "display_name": "Moon Lamp",
+    "bedrock_options": {
+     "icon": "nexus.moon_lamp"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:rift_crystal",
+    "bedrock_identifier": "nexus:rift_crystal_item",
+    "display_name": "Rift Crystal",
+    "bedrock_options": {
+     "icon": "nexus.rift_crystal"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:starfall_stone",
+    "bedrock_identifier": "nexus:starfall_stone_item",
+    "display_name": "Starfall Stone",
+    "bedrock_options": {
+     "icon": "nexus.starfall_stone"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:wisp_jar",
+    "bedrock_identifier": "nexus:wisp_jar_item",
+    "display_name": "Wisp Jar",
+    "bedrock_options": {
+     "icon": "nexus.wisp_jar"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:harvest_bale",
+    "bedrock_identifier": "nexus:harvest_bale_item",
+    "display_name": "Harvest Bale",
+    "bedrock_options": {
+     "icon": "nexus.harvest_bale"
+    }
+   },
+   {
+    "type": "definition",
+    "model": "nexus:glow_mushroom",
+    "bedrock_identifier": "nexus:glow_mushroom_item",
+    "display_name": "Glowcap",
+    "bedrock_options": {
+     "icon": "nexus.glow_mushroom"
+    }
+   }
+  ]
+ }
+}

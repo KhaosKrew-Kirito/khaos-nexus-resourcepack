@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/harvest_bale_top",
+  "bottom": "nexus:block/harvest_bale_top",
+  "side": "nexus:block/harvest_bale_side"
+ }
+}

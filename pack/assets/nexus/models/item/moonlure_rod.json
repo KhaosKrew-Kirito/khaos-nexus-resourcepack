@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/handheld_rod",
+ "textures": {
+  "layer0": "nexus:item/moonlure_rod"
+ }
+}

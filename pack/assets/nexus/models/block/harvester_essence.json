@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/harvester_essence_top",
+  "bottom": "nexus:block/harvester_essence_top",
+  "side": "nexus:block/harvester_essence_side"
+ }
+}

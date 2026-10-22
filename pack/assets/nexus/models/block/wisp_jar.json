@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/wisp_jar_top",
+  "bottom": "nexus:block/wisp_jar_top",
+  "side": "nexus:block/wisp_jar_side"
+ }
+}

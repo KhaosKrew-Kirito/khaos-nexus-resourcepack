@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/harvester_fishing_top",
+  "bottom": "nexus:block/harvester_fishing_top",
+  "side": "nexus:block/harvester_fishing_side"
+ }
+}

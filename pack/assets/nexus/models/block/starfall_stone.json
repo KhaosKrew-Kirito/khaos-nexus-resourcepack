@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/cube_bottom_top",
+ "textures": {
+  "top": "nexus:block/starfall_stone_top",
+  "bottom": "nexus:block/starfall_stone_top",
+  "side": "nexus:block/starfall_stone_side"
+ }
+}

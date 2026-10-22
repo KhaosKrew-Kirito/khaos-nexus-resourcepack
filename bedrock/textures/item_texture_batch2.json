@@ -1,0 +1,36 @@
+{
+ "resource_pack_name": "nexus",
+ "texture_name": "atlas.items",
+ "texture_data": {
+  "nexus.ember_blade": {
+   "textures": "textures/items/ember_blade"
+  },
+  "nexus.frostbloom_blade": {
+   "textures": "textures/items/frostbloom_blade"
+  },
+  "nexus.starforge_pickaxe": {
+   "textures": "textures/items/starforge_pickaxe"
+  },
+  "nexus.grove_axe": {
+   "textures": "textures/items/grove_axe"
+  },
+  "nexus.starlit_shovel": {
+   "textures": "textures/items/starlit_shovel"
+  },
+  "nexus.moonlure_rod": {
+   "textures": "textures/items/moonlure_rod"
+  },
+  "nexus.aurora_bow": {
+   "textures": "textures/items/aurora_bow"
+  },
+  "nexus.starry_hat": {
+   "textures": "textures/items/starry_hat"
+  },
+  "nexus.candy_corn_saber": {
+   "textures": "textures/items/candy_corn_saber"
+  },
+  "nexus.cozy_witch_hat": {
+   "textures": "textures/items/cozy_witch_hat"
+  }
+ }
+}
