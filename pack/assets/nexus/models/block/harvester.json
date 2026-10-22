@@ -1,0 +1,12 @@
+{
+ "parent": "minecraft:block/cube",
+ "textures": {
+  "particle": "nexus:block/harvester_side",
+  "up": "nexus:block/harvester_top",
+  "down": "nexus:block/harvester_side",
+  "north": "nexus:block/harvester_side",
+  "south": "nexus:block/harvester_side",
+  "east": "nexus:block/harvester_side",
+  "west": "nexus:block/harvester_side"
+ }
+}

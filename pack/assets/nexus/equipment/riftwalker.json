@@ -1,0 +1,14 @@
+{
+ "layers": {
+  "humanoid": [
+   {
+    "texture": "nexus:riftwalker"
+   }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "nexus:riftwalker"
+   }
+  ]
+ }
+}
